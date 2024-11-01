@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Porfolio - Ale Gonzalez</title>
+    <link rel="stylesheet" href="./style/style.css  ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        </head>
+<body>
+    <!----header-->
+    <header id="inicio">
+        <div class="contenedor">
+            <nav> 
+                <h1>Ale Gonzalez</h1>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#Cita">Cita</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <!---fin del Header-->
+    <main>
+        <section id="sobre-mi">
+            <div class="sobre-mi">
+                <h2>Sobre Mí</h2>
+                    <p>Hola, soy Ale Gonzalez, desarrolladora frontend en formación.</p>
+                    <p>Mis conocimientos</p>
+                <div class="grid skill-grid">
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="logo bash">
+                    </div>
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="logo canva">
+                    </div>
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gimp/gimp-original.svg" alt="logo gimp">
+                    </div>
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="logo git">
+                    </div>
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="logo github">
+                    </div>
+            </div>
+        </section>
+        <section id="proyectos">
+            <div class="contenedor grid">
+                <h2>Proyectos</h2>
+                    <div class="proyecto">
+                        <h3>Proyecto 1</h3>
+                            <img src="./image/1.jpg" alt="Proyecto de capacitacion">
+                            <p>Descripción breve del primer proyecto.</p>
+                            <a href="">Ver Proyecto</a>
+                    </div>
+                <div class="proyecto1">
+                    <h3>Proyecto 2</h3>
+                    <img src="./image/2.jpg" alt="Proyecto Tienda online">
+                    <p>Descripción breve del segundo proyecto.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+                <div class="proyecto2">
+                    <h3>Proyecto 3</h3>
+                    <img src="./image/3.jpg" alt="Proyecto consultorio">
+                    <p>Descripción breve del primer proyecto.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>    
+                <div class="proyecto3">
+                    <h3>Proyecto 4</h3>
+                    <img src="./image/4.jpg" alt="Proyecto salud mental">
+                    <p>Descripción breve del primer proyecto.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>    
+            </div>
+        </section>
+        <section id="Cita">
+            <h2>Cita</h2>
+            <blockquote>
+                <p>"The more I learn, the more I realize how much I don't know"</p>
+                <p>-Albert Einstein-</p>
+            </blockquote>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¡Hablemos!</p>
+            <form action="envio_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Ale Gonzalez 2024. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://x.com/alecgonzalezmi"> Twitter
+                <i class="devicon-twitter-original colored"></i> 
+            </a>
+
+            <a href="https://www.linkedin.com/in/alejandra-c-gonzalez-403b45335">Linkedin
+                <i class="devicon-linkedin-plain colored"></i>
+            </a> |
+        </div>    
+            
+    </footer>
+</body>
+</html>
